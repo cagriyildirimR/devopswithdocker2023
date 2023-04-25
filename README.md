@@ -1,6 +1,6 @@
 # DevOps with Docker Course Solutions
 
-This repository contains my solutions to the exercises for the DevOps with Docker course. The course covers fundamental Docker concepts, Docker Compose, and security and optimization in Docker. The aim of this course is to teach students how to work with Docker and use it to simplify the development process, manage complex multi-container applications, and optimize Docker images for production.
+This repository contains my solutions to the exercises for the [DevOps with Docker course](https://devopswithdocker.com). The course covers fundamental Docker concepts, Docker Compose, and security and optimization in Docker. The aim of this course is to teach students how to work with Docker and use it to simplify the development process, manage complex multi-container applications, and optimize Docker images for production.
 
 ## Repository structure
 
