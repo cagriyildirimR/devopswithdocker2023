@@ -1,0 +1,10 @@
+Run frontend
+
+> docker build . -t frontend
+> docker run -p 5000:5000 frontend
+
+Run backend
+> docker build . -t backend
+> docker run -p 8080:8080 backend
+
+Then we open localhost:5000 url from browser.

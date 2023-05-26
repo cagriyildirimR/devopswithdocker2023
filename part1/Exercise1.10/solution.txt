@@ -1,0 +1,7 @@
+> docker build ./Exercise1.8 -t custom_server
+
+> docker run -p 8080:8080 custom_server
+
+From different cmd
+> curl localhost:8080
+{"message":"You connected to the following path: /","path":"/"}%       

@@ -1,0 +1,10 @@
+From url:https://hub.docker.com/r/devopsdockeruh/pull_exercise
+
+We go to 'Overview' section. Text reads "This is the readme, use input "basics" to complete this exercise."
+
+We give input 'basics' into container.
+
+Output: 
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"

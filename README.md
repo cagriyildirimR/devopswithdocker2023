@@ -4,14 +4,16 @@ This repository contains my solutions to the exercises for the [DevOps with Dock
 
 ## Repository structure
 
-Each part has its own folder and exercise files are named Exercise X.Y, where X is the part number and Y is the exercise number.
+Each part has its own folder and exercise folders are named Exercise X.Y, where X is the part number and Y is the exercise number.
 
 The repository follows this structure:
 
 ````
 partX/
   ├── Exercise X.1
+  |   ├── solution.txt
   ├── Exercise X.2
+  |   ├── Dockerfile
   ├── Exercise X.3
   ...
 ````

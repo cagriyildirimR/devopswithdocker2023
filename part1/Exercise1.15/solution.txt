@@ -1,0 +1,2 @@
+repo: https://github.com/cagriyildirimR/good-fortune
+dockerhub: https://hub.docker.com/repository/docker/cagriyildirim/good-fortune/general

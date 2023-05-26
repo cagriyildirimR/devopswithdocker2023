@@ -1,0 +1,20 @@
+>docker ps -a -s 
+CONTAINER ID   IMAGE                                      COMMAND                  CREATED              STATUS                           PORTS     NAMES               SIZE
+e26baee0477f   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"    42 seconds ago       Up 41 seconds                              romantic_shockley   970B (virtual 15.7MB)
+d19383c147ba   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"    About a minute ago   Up About a minute                          happy_agnesi        2.27kB (virtual 83MB)
+
+To get the secret message in alpine container
+
+> docker exec -it e26 sh
+> tail text.log
+2023-05-25 11:57:41 +0000 UTC
+2023-05-25 11:57:43 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-25 11:57:45 +0000 UTC
+2023-05-25 11:57:47 +0000 UTC
+2023-05-25 11:57:49 +0000 UTC
+2023-05-25 11:57:51 +0000 UTC
+2023-05-25 11:57:53 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-25 11:57:55 +0000 UTC
+> exit
