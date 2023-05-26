@@ -1,0 +1,7 @@
+I used fly.io for deployment. After authenticating, 
+I navigated to the folder where our Dockerfile is located. 
+Then, I executed the command flyctl launch. This command 
+prompted me to enter the name of the app and asked whether 
+the app required a database or any other dependencies.
+
+hostname: good-fortune.fly.dev 
