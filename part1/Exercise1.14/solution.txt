@@ -7,4 +7,4 @@ Run backend
 > docker build . -t backend
 > docker run -p 8080:8080 backend
 
-Then we open localhost:5000 url from browser.
+Then we visit localhost:5000 using browser.
