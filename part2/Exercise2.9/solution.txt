@@ -1,0 +1,12 @@
+In the previous exercise, we assigned the value of our backend URL to the environment variable REACT_APP_BACKEND_URL and the value of our frontend URL to the variable REQUEST_ORIGIN.
+
+However, we now need to make some changes because we are using a proxy to facilitate communication between services and serve as the entry point for our application.
+
+To make these changes, please follow the steps below:
+
+1. Remove the line that sets the value of REACT_APP_BACKEND_URL from the Dockerfile.frontend file.
+2. In the docker-compose.yml file, add the following line to the environment section: REACT_APP_BACKEND_URL=http://proxy:80.
+3. Remove the line that sets the value of REQUEST_ORIGIN from the Dockerfile.backend file.
+4. In the docker-compose.yml file, add the following line to the environment section: REQUEST_ORIGIN=http://proxy:80.
+
+Once these changes are made, all buttons in the application should work properly.
