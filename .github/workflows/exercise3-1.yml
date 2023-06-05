@@ -4,7 +4,7 @@ on:
         branches:
             - main
         paths:
-            - 'path3/Exercise3.1/express-app/**'
+            - 'part3/Exercise3.1/express-app/**'
 
 jobs:
     build:
